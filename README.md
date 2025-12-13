@@ -12,10 +12,10 @@ This is the temporary storage location for the XFighterZone Linera Microchain Ga
 ### ⚠️ Important Notice for Judges - Check Docker
 All large frontend game client/server files are **not included in the GitHub repository** due to size limits.  
 Please download all build `.zip` files if possible. They are provided in the **Release section**:
-- [ClientFrontend.zip](https://github.com/270397royroyal/LineraOrchestrator_XFighterZone/releases/tag/Multiplatform-DockerTest)  
-- [ServerLobby.zip](https://github.com/270397royroyal/LineraOrchestrator_XFighterZone/releases/tag/Multiplatform-DockerTest)
-- [AdminTournamentFrontend.zip](https://github.com/270397royroyal/LineraOrchestrator_XFighterZone/releases/tag/Multiplatform-DockerTest)
-- [ServerTournament.zip](https://github.com/270397royroyal/LineraOrchestrator_XFighterZone/releases/tag/Multiplatform-DockerTest)  
+- [ClientFrontend.zip](https://github.com/270397royroyal/XFighterZone-Linera-Microchain-Game/releases/tag/Multiplatform-DockerTest)  
+- [ServerLobby.zip](https://github.com/270397royroyal/XFighterZone-Linera-Microchain-Game/releases/tag/Multiplatform-DockerTest)  
+- [AdminTournamentFrontend.zip](https://github.com/270397royroyal/XFighterZone-Linera-Microchain-Game/releases/tag/Multiplatform-DockerTest)
+- [ServerTournament.zip](https://github.com/270397royroyal/XFighterZone-Linera-Microchain-Game/releases/tag/Multiplatform-DockerTest)
 
 **Instructions:**  
 1. Download and unzip each file in the root directory of the project.
