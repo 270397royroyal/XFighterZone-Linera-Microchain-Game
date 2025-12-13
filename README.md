@@ -27,7 +27,7 @@ Please download all build `.zip` files if possible. They are provided in the **R
 ## A. Local Development Run with Docker
 ```text
 # Clone this repository and run locally
-git clone https://github.com/270397royroyal/LineraOrchestrator_XFighterZone.git
+git clone https://github.com/270397royroyal/XFighterZone-Linera-Microchain-Game.git
 cd LineraOrchestrator_XFighterZone
 
 # Run script to complete system (LineraOrchestrator + Game Server)
