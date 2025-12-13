@@ -23,6 +23,28 @@ Please download all build `.zip` files if possible. They are provided in the **R
 3. Run `chmod +x ./scripts/local-dev-start.sh` and then `./scripts/local-dev-start.sh` to launch the full system locally.  
 > This ensures that `./scripts/local-dev-start.sh` can find all necessary files and run the complete XFighterZone system.
 
+### 📁 Expected Project Structure (After Unzipping)
+
+After downloading and extracting all `.zip` files into the project root,  
+your directory structure should look like this:
+
+```text
+.
+├── AdminTournamentFrontend
+├── CHANGELOG.md
+├── ClientFrontend
+├── LineraOrchestrator
+├── README.md
+├── ServerLobby
+├── ServerTournament
+├── TestScripts
+├── all-test-commands.md
+├── docker-compose.yaml
+├── scripts
+├── start-docker.sh
+└── start-tournament.sh
+```
+
 # 🚀 Deployment Environments
 ## A. Local Development Run with Docker
 ```text
