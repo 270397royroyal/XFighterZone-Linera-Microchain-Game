@@ -105,7 +105,7 @@ chmod +x TestScripts/reset_data.sh
 | **Wave 1** | MVP Foundation: Core Gameplay, On-chain Integration | ✅ Complete |
 | **Wave 2** | Multiplatform Support, Friend System, Hero System, Normal/Rank Modes | ✅ Complete |
 | **Wave 3** | Tournament Expansion, User Chains, Social on-chain features & Cross-chain Betting | ✅ Complete |
-| **Wave 4** | Metaverse Lobby, Prediction Bet System & Cross-chain Asset Management  | 🔄 In Progress |
+| **Wave 4** | Metaverse Lobby, Prediction Bet System & Cross-chain Asset Management  | ✅ Complete |
 | **Wave 5** | Marketplace, Quest System & Advanced Prediction Pools | 🔄 In Progress |
 | **Wave 6** | Full Metaverse: Decentralization & Social Features | ⏳ Planned |
 
