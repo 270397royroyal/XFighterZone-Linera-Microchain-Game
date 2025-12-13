@@ -1,0 +1,12 @@
+{
+  "publisherChainId": "60c41147729e7793d56bd00e1577e75e381aefb13f5f967d844a720d464664ac",
+  "publisherOwner": "0xbcded5cd878d9732f81002efddd2e5b8daf136753bb98dd0aebff9150aa99418",
+  "userXFighterModuleId": "e60c25e0bd0cb9bc6f419e45f3cf31fbef11a0001eb28047816f696354beb841dadd06008eae0e994f576d81a7dd464facb321d6bdcbb5520563d076003829af00",
+  "xFighterModuleId": "2e705f885aca48dbe6892c94734ddfa5589c42fd9999d1c89254641ed56376bf74d15192abc4345ae8739aa5ddee58eb0c730cceaffe7d32fbc5f8e4f6eca61d00",
+  "xFighterAppId": "edf9977a1d14f55d6aa0e0a02d242239394e6daef0db7cb8b6163e7ad8561f54",
+  "leaderboardAppId": "cdebaefb7d8f6aee48121c7188ff6ba6abaf8a801b6da0a402f124032dbaa9f7",
+  "tournamentAppId": "0ccc9bd4f6c68eefa11f3df222394362f2582130160290a8f68e962449c488bd",
+  "fungibleAppId": "bfe90240c3435c2f44fe2e87f6ca164edb65b97893317e8a2b71031da94815e2",
+  "friendAppId": "fbb1cf7207f8776cf45e5e492dbe4040d00b742110d94118341b93e98b7e3836",
+  "isValid": true
+}

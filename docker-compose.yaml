@@ -1,0 +1,73 @@
+﻿services:
+  linera-orchestrator:
+    container_name: linera-orchestrator
+    image: ${LINERA_IMAGE:-ghcr.io/yourorg/linera-orchestrator:latest}
+    build:
+      context: ./LineraOrchestrator
+      dockerfile: Dockerfile
+    ports:
+      - "5290:5290"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - DOTNET_URLS=http://+:5290
+      - LINERA_DOCKER_MODE=true
+    restart: unless-stopped
+
+  serverlobby:
+    container_name: server-lobby
+    image: ${SERVERLOBBY_IMAGE:-ghcr.io/yourorg/server-lobby:latest}
+    build:
+      context: ./ServerLobby
+      dockerfile: Dockerfile
+    ports:
+      - "1111:1111"
+      - "1111:1111/udp"
+      - "10011-10100:10011-10100"
+      - "10011-10100:10011-10100/udp"
+    volumes:
+      - ./ServerLobby/server_data:/opt/serverLobby/data
+      - /tmp:/tmp:rw
+    environment:
+      - ORCHESTRATOR_URL=http://linera-orchestrator:5290/linera
+      - ORCHESTRATOR_ENV=docker
+    restart: unless-stopped
+    privileged: true
+
+  webgl_frontend:
+    container_name: webgl_frontend
+    image: ${WEBGL_IMAGE:-ghcr.io/yourorg/webgl_frontend:latest}
+    build:
+      context: ./ClientFrontend
+      dockerfile: Docker/Dockerfile
+    ports:
+      - "5173:80"
+    restart: unless-stopped
+
+  servertournament:
+    container_name: servertournament
+    image: ${SERVERTOURN_IMAGE:-ghcr.io/yourorg/servertournament:latest}
+    build:
+      context: ./ServerTournament
+      dockerfile: Dockerfile
+    ports:
+      - "18124:18124"
+      - "10000-10010:10000-10010"
+      - "10000-10010:10000-10010/udp"
+    volumes:
+      - ./ServerTournament/server_data:/opt/serverTournament/data
+      - /tmp:/tmp:rw
+    environment:
+      - ORCHESTRATOR_URL=http://linera-orchestrator:5290/linera
+      - ORCHESTRATOR_ENV=docker
+    restart: unless-stopped
+    privileged: true
+
+  admin_webgl_frontend:
+    container_name: admin_webgl_frontend
+    image: ${ADMINWEBGL_IMAGE:-ghcr.io/yourorg/admin_webgl_frontend:latest}
+    build:
+      context: ./AdminTournamentFrontend
+      dockerfile: Docker/Dockerfile
+    ports:
+      - "5174:80"
+    restart: unless-stopped

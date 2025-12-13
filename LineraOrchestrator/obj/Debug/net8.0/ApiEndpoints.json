@@ -1,0 +1,897 @@
+[
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_2",
+    "RelativePath": "health",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "\u003C\u003Ef__AnonymousType30\u00602[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "GetMatchHistoryByChainId",
+    "RelativePath": "Linera/get-chainid-match-history",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "chainId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "GetCurrentSeasonInfo",
+    "RelativePath": "Linera/get-current-season-info",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "GetLeaderboardData",
+    "RelativePath": "Linera/get-leaderboard-data",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "GetSeasonInfo",
+    "RelativePath": "Linera/get-season-info",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "seasonNumber",
+        "Type": "System.UInt64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "GetSeasonLeaderboard",
+    "RelativePath": "Linera/get-season-leaderboard",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "seasonNumber",
+        "Type": "System.UInt64",
+        "IsRequired": false
+      },
+      {
+        "Name": "limit",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "GetTournamentInfo",
+    "RelativePath": "Linera/get-tournament-info",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tournamentNumber",
+        "Type": "System.UInt64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "GetTournamentLeaderboard",
+    "RelativePath": "Linera/get-tournament-leaderboard",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tournamentNumber",
+        "Type": "System.UInt64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "GetTournamentTop8",
+    "RelativePath": "Linera/get-tournament-top8",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "GetUserGlobalStats",
+    "RelativePath": "Linera/get-user-global-stats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "GetMatchHistoryByUser",
+    "RelativePath": "Linera/get-user-match-history",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "GetMatchHistoryByUserChain",
+    "RelativePath": "Linera/get-userchain-match-history",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userChain",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "EndSeason",
+    "RelativePath": "Linera/leaderboard/end",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "StartSeason",
+    "RelativePath": "Linera/leaderboard/start",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "GetLineraConfig",
+    "RelativePath": "Linera/linera-config",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "GetServiceHealth",
+    "RelativePath": "Linera/linera-health",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "OpenAndCreate",
+    "RelativePath": "Linera/open-and-create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "LineraOrchestrator.Models.CreateMatchRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "GetPublisherBalance",
+    "RelativePath": "Linera/publisher/balance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "StartLineraNode",
+    "RelativePath": "Linera/start-linera-node",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "StartLineraService",
+    "RelativePath": "Linera/start-linera-service",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "port",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "StopLineraService",
+    "RelativePath": "Linera/stop-linera-service",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "SubmitMatchResult",
+    "RelativePath": "Linera/submit-match-result",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "LineraOrchestrator.Models.SubmitMatchRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "AdvanceTournamentBracket",
+    "RelativePath": "Linera/tournament/advance-bracket",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "GetAirdropInfo",
+    "RelativePath": "Linera/tournament/airdrop-info",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "EndTournament",
+    "RelativePath": "Linera/tournament/end",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "GetBets",
+    "RelativePath": "Linera/tournament/get-bets",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "matchId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "InitTournamentMatches",
+    "RelativePath": "Linera/tournament/init",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "GetTournamentLeaderboard",
+    "RelativePath": "Linera/tournament/leaderboard",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "GetTournamentMatchList",
+    "RelativePath": "Linera/tournament/match-list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "GetMatchMetadata",
+    "RelativePath": "Linera/tournament/match-metadata",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "matchId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "GetTournamentParticipants",
+    "RelativePath": "Linera/tournament/participants",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "GetPendingClaims",
+    "RelativePath": "Linera/tournament/pending-claims",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "ProcessPendingClaims",
+    "RelativePath": "Linera/tournament/process-pending-claims",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "limit",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "GetTournamentSeasonInfo",
+    "RelativePath": "Linera/tournament/season-info",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "SetAirdropAmount",
+    "RelativePath": "Linera/tournament/set-airdrop-amount",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "amount",
+        "Type": "System.UInt64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "SetTournamentBracket",
+    "RelativePath": "Linera/tournament/set-bracket",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "LineraOrchestrator.Models.SetBracketRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "SetMatchMetadata",
+    "RelativePath": "Linera/tournament/set-match-metadata",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "LineraOrchestrator.Models.SetMatchMetadataRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "SetTournamentParticipants",
+    "RelativePath": "Linera/tournament/set-participants",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "LineraOrchestrator.Models.SetParticipantsRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "SettleMatch",
+    "RelativePath": "Linera/tournament/settle",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "LineraOrchestrator.Models.SettleMatchRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "StartTournament",
+    "RelativePath": "Linera/tournament/start",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "SubmitTournamentMatch",
+    "RelativePath": "Linera/tournament/submit-match",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "match",
+        "Type": "LineraOrchestrator.Models.MatchResult",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "GetUserBalance",
+    "RelativePath": "Linera/user/{userName}/balance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "GetBettingTransactions",
+    "RelativePath": "Linera/user/{userName}/betting-transactions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "GetFriendRequest",
+    "RelativePath": "Linera/user/{userName}/friend-request/{requestId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "requestId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "GetFriends",
+    "RelativePath": "Linera/user/{userName}/friends",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "IsFriend",
+    "RelativePath": "Linera/user/{userName}/is-friend/{targetChainId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "targetChainId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "GetPendingRequests",
+    "RelativePath": "Linera/user/{userName}/pending-requests",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "GetSentRequests",
+    "RelativePath": "Linera/user/{userName}/sent-requests",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "GetUserTransactions",
+    "RelativePath": "Linera/user/{userName}/token-transactions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "GetUserTransactionsFromPublisher",
+    "RelativePath": "Linera/user/{userName}/token-transactions-from-publisher",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "AcceptFriendRequest",
+    "RelativePath": "Linera/user/accept-friend-request",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "LineraOrchestrator.Models.AcceptFriendRequestRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "AuthUser",
+    "RelativePath": "Linera/user/auth",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "LineraOrchestrator.Models.AuthUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "CheckUserService",
+    "RelativePath": "Linera/user/check-service/{userName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "GetUserList",
+    "RelativePath": "Linera/user/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "UserPlaceBet",
+    "RelativePath": "Linera/user/place-bet",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "LineraOrchestrator.Models.UserPlaceBetRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "RejectFriendRequest",
+    "RelativePath": "Linera/user/reject-friend-request",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "LineraOrchestrator.Models.RejectFriendRequestRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "RemoveFriend",
+    "RelativePath": "Linera/user/remove-friend",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "LineraOrchestrator.Models.RemoveFriendRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "UserRequestInitialClaim",
+    "RelativePath": "Linera/user/request-initial-claim",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "SendFriendRequest",
+    "RelativePath": "Linera/user/send-friend-request",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "LineraOrchestrator.Models.SendFriendRequestRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "StartUserService",
+    "RelativePath": "Linera/user/start-service/{userName}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "StopUserService",
+    "RelativePath": "Linera/user/stop-service/{userName}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LineraOrchestrator.Controllers.LineraController",
+    "Method": "TransferTokensToUser",
+    "RelativePath": "Linera/user/transfer-tokens",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "LineraOrchestrator.Models.TransferTokensRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
