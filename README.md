@@ -50,8 +50,8 @@ curl http://localhost:5290/linera/get-leaderboard-data
 - Game Client: http://localhost:5173
 - Fastest response times, easy run with Docker
 
-## B. Live Demo (Production Ready)
-For clients, demo & production testing.  
+## B. Live Demo (Not Production-Ready in Wave 4)
+For demo and evaluation purposes only.  
 **🎮 WebGL Game Client Live Demo:** https://xfighterzone.com/game/
 ```bash
 # Test the live application (accessible globally)
@@ -93,10 +93,10 @@ chmod +x TestScripts/reset_data.sh
 | Layer | Technology |
 |-------|-------------|
 | **Blockchain** | Linera Protocol Conway Testnet |
-| **Smart Contracts** | Rust 1.86.0, Linera SDK v0.15.5 |
+| **Smart Contracts** | Rust 1.86.0, Linera SDK v0.15.7 |
 | **Orchestrator** | C#, ASP.NET, GraphQL Client |
 | **Infrastructure** | Docker, Multi-wallet Management, Cloudflare Tunnel |
-| **Frontend** | Unity Client WebGL: localhost:5173, Live-Demo |
+| **Frontend** | Unity Client WebGL: localhost:5173 |
 | **Database** | RocksDB (Linera Native) |
 
 ## Development Roadmap
