@@ -109,11 +109,11 @@ chmod +x TestScripts/reset_data.sh
 | **Wave 5** | Marketplace, Quest System & Advanced Prediction Pools | 🔄 In Progress |
 | **Wave 6** | Full Metaverse: Decentralization & Social Features | ⏳ Planned |
 
-## Wave 3: Major updates 
-- Environment 1: Live Demo Production
-- Environment 2: Local Development & Testing
+## Wave 4: Major updates 
+- Environment 1: Local Development & Testing
 - Multi-chain architecture with user chains
 - Complete cross-chain betting system
+- **Live tournament betting: users can place bets directly on ongoing Tournament matches via cross-chain calls**
 - User global metrics / User profile
 - Tournament and Leaderboard management with multi-season support
 - Social features with friend system
