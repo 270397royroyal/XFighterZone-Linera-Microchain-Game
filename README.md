@@ -12,10 +12,10 @@ This is the temporary storage location for the XFighterZone Linera Microchain Ga
 ### ⚠️ Important Notice for Judges - Check Docker
 All large frontend game client/server files are **not included in the GitHub repository** due to size limits.  
 Please download all build `.zip` files if possible. They are provided in the **Release section**:
-- [ClientFrontend.zip](https://github.com/2703roy/LineraOrchestrator_XFighterZone/releases/tag/Multiplatform-DockerTest)  
-- [ServerLobby.zip](https://github.com/2703roy/LineraOrchestrator_XFighterZone/releases/tag/Multiplatform-DockerTest)
-- [AdminTournamentFrontend.zip](https://github.com/2703roy/LineraOrchestrator_XFighterZone/releases/tag/Multiplatform-DockerTest)
-- [ServerTournament.zip](https://github.com/2703roy/LineraOrchestrator_XFighterZone/releases/tag/Multiplatform-DockerTest)  
+- [ClientFrontend.zip](https://github.com/270397royroyal/LineraOrchestrator_XFighterZone/releases/tag/Multiplatform-DockerTest)  
+- [ServerLobby.zip](https://github.com/270397royroyal/LineraOrchestrator_XFighterZone/releases/tag/Multiplatform-DockerTest)
+- [AdminTournamentFrontend.zip](https://github.com/270397royroyal/LineraOrchestrator_XFighterZone/releases/tag/Multiplatform-DockerTest)
+- [ServerTournament.zip](https://github.com/270397royroyal/LineraOrchestrator_XFighterZone/releases/tag/Multiplatform-DockerTest)  
 
 **Instructions:**  
 1. Download and unzip each file in the root directory of the project.
@@ -27,7 +27,7 @@ Please download all build `.zip` files if possible. They are provided in the **R
 ## A. Local Development Run with Docker
 ```text
 # Clone this repository and run locally
-git clone https://github.com/2703roy/LineraOrchestrator_XFighterZone.git
+git clone https://github.com/270397royroyal/LineraOrchestrator_XFighterZone.git
 cd LineraOrchestrator_XFighterZone
 
 # Run script to complete system (LineraOrchestrator + Game Server)
@@ -66,7 +66,7 @@ curl -X GET https://api.xfighterzone.com/linera/get-leaderboard-data
 - Global CDN & DDoS protection
 - Multi-chain Conway Testnet integration
 
-All test commands Orchestrator: [all-test-commands.md](https://github.com/2703roy/LineraOrchestrator_XFighterZone/blob/main/all-test-commands.md).  
+All test commands Orchestrator: [all-test-commands.md](https://github.com/270397royroyal/LineraOrchestrator_XFighterZone/blob/main/all-test-commands.md).  
 Create a new publisher chain & user chain data on Docker
 ```text
 cd LineraOrchestrator_XFighterZone
@@ -120,7 +120,7 @@ chmod +x TestScripts/reset_data.sh
 - Decentralized economy with Fungible Token integration
 - Real-time gameplay with good performance for WebGL
 
-Details upgrades: [CHANGELOG.md](https://github.com/2703roy/LineraOrchestrator_XFighterZone/blob/main/CHANGELOG.md).
+Details upgrades: [CHANGELOG.md](https://github.com/270397royroyal/LineraOrchestrator_XFighterZone/blob/main/CHANGELOG.md).
 ## System Architecture
 ```plaintext
 Multi-Chain Gaming Infrastructure
