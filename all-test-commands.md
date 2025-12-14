@@ -181,20 +181,20 @@ curl -s -X POST http://localhost:5290/linera/tournament/set-bracket \
 🔸 Open betting (set match metadata)
 curl -s -X POST http://localhost:5290/linera/tournament/set-match-metadata \
   -H "Content-Type: application/json" \
-  -d '{"matchId":"BET5","DurationMinutes":2}' | jq
+  -d '{"matchId":"QF1","DurationMinutes":2}' | jq
 
 🔸 Get current bet metadata
 curl -s -X GET \
-"http://localhost:5290/linera/tournament/get-bet-metadata?matchId=BET5" | jq .
+"http://localhost:5290/linera/tournament/get-bet-metadata?matchId=QF1" | jq .
 
 🔸 Place bet
 curl -s -X POST http://localhost:5290/linera/user/place-bet \
   -H "Content-Type: application/json" \
-  -d '{"userName":"test1","matchId":"BET5","player":"A","amount":3000}' | jq
+  -d '{"userName":"test1","matchId":"QF1","player":"A","amount":5000}' | jq
 
 🔸 Get all bets in match
 curl -s -X GET \
-"http://localhost:5290/linera/tournament/get-bets?matchId=BET5" | jq .
+"http://localhost:5290/linera/tournament/get-bets?matchId=QF1" | jq .
 
 🔸 View user betting history
 curl -s -X GET \
@@ -203,7 +203,7 @@ http://localhost:5290/linera/user/test1/betting-transactions | jq .
 🔸 Settle match / bet
 curl -s -X POST http://localhost:5290/linera/tournament/settle \
   -H "Content-Type: application/json" \
-  -d '{"matchId":"BET5","winner":"A"}' | jq .
+  -d '{"matchId":"QF1","winner":"test7"}' | jq .
 ```
 
 🟪 7. FRIEND SYSTEM
