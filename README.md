@@ -5,7 +5,6 @@ This is the temporary storage location for the XFighterZone Linera Microchain Ga
 # ⚔️ XFighterZone — Real-Time Gaming & Prediction Metaverse on Linera
 <p align="center">
   <a href="https://youtu.be/WGVj7Ey84wI">
-    <img src="https://img.youtube.com/vi/FTH6rmuN_Bg/maxresdefault.jpg" width="720" alt="Watch the demo">
   </a>
 </p>
 
