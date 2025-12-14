@@ -157,10 +157,10 @@ curl -s -X GET http://localhost:5290/linera/publisher/balance | jq
 
 🔸 Token transfer transaction history
 # User token transfer transactions
-curl -s -X GET http://localhost:5290/linera/user/test4/token-transactions | jq .
+curl -s -X GET http://localhost:5290/linera/user/test1/token-transactions | jq .
 
 # Token transfers from publisher to user
-curl -s -X GET http://localhost:5290/linera/user/test4/token-transactions-from-publisher | jq .
+curl -s -X GET http://localhost:5290/linera/user/test1/token-transactions-from-publisher | jq .
 
 🔸 Set tournament bracket
 curl -s -X POST http://localhost:5290/linera/tournament/set-bracket \
